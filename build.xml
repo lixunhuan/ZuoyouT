@@ -1,0 +1,63 @@
+<?xml version="1.0"?>  
+<project default="run-test">  
+      
+    <property name="tmp.dir" location="tmp"></property>  
+    <property name="src.dir" location="src"></property>  
+    <property name="test.dir" location="src/zuoyou/jenkins/test"></property>  
+    <property name="lib.dir" location="lib"></property>  
+    <property name="build.dir" location="build"></property>  
+    <property name="build.classes" location="${build.dir}/classes"></property>  
+    <property name="build.report" location="${build.dir}/report"></property>  
+	<path id="classpath">
+	  <pathelement location="${build.dir}/classes" /> 
+	 </path> 
+    <path id="compile-path">  
+        <fileset dir="${lib.dir}" includes="**/*.jar"></fileset>     
+  
+    </path>  
+      
+    <path id="test-compile-path">  
+        <path refid="compile-path"></path>  
+        <pathelement location="${build.classes}"/>  
+    </path>  
+      
+    <target name="clean">  
+        <delete dir="${build.dir}"></delete>  
+    </target>  
+      
+    <target name="init" depends="clean">  
+        <mkdir dir="${build.dir}"/>  
+        <mkdir dir="${build.classes}"/>  
+        <mkdir dir="${build.report}"/>  
+    </target>  
+     
+  
+    <target name="compile" depends="init">  
+      <javac srcdir="${src.dir}" destdir="${build.classes}" classpathref="compile-path"></javac>  
+      
+        <copy todir="${build.classes}">  
+            <fileset dir="${src.dir}" excludes="**/*.java"></fileset>  
+        </copy>  
+              
+    </target>  
+      
+   
+      
+    <target name="run-test" depends="compile">  
+        <junit>  
+        	
+           <classpath refid="test-compile-path"/>
+	 
+            <formatter type="xml" usefile="true"/>  
+            <batchtest todir="${build.report}">  
+                <fileset dir="${build.classes}" includes="**/*Test.class"></fileset>  
+            </batchtest>  
+              
+        </junit>  
+          
+      
+    </target>  
+  
+    
+      
+</project>  

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="think-PC" name="zuoyou.jenkins.test.task.JenkinsTest" skipped="0" tests="1" time="0.048" timestamp="2013-10-24T03:52:30">
+  <properties>
+    <property name="ant.project.invoked-targets" value="run-test" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_05\jre\bin" />
+    <property name="java.vm.version" value="23.1-b03" />
+    <property name="ant.library.dir" value="D:\installed_file\apache-ant-1.9.2\lib" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="user.script" value="" />
+    <property name="user.country" value="CN" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="user.dir" value="E:\workspace\Test" />
+    <property name="java.runtime.version" value="1.7.0_05-b05" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="basedir" value="E:\workspace\Test" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_05\jre\lib\endorsed" />
+    <property name="os.arch" value="amd64" />
+    <property name="ant.project.default-target" value="run-test" />
+    <property name="java.io.tmpdir" value="C:\Users\zy\AppData\Local\Temp\" />
+    <property name="ant.core.lib" value="D:\installed_file\apache-ant-1.9.2\lib\ant.jar" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="user.variant" value="" />
+    <property name="os.name" value="Windows NT (unknown)" />
+    <property name="ant.home" value="D:\installed_file\apache-ant-1.9.2" />
+    <property name="build.classes" value="E:\workspace\Test\build\classes" />
+    <property name="build.dir" value="E:\workspace\Test\build" />
+    <property name="sun.jnu.encoding" value="GBK" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_05\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.7.0_05\bin;C:\Program Files\Java\jdk1.7.0_05\jre\bin;D:\installed_file\apache-maven-3.0.5\bin;D:\installed_file\apache-ant-1.9.2\bin;." />
+    <property name="java.class.version" value="51.0" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="lib.dir" value="E:\workspace\Test\lib" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.version" value="6.2" />
+    <property name="ant.file" value="E:\workspace\Test\build.xml" />
+    <property name="build.report" value="E:\workspace\Test\build\report" />
+    <property name="user.home" value="C:\Users\zy" />
+    <property name="user.timezone" value="" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="file.encoding" value="GBK" />
+    <property name="java.class.path" value="D:\installed_file\apache-ant-1.9.2\lib\ant-launcher.jar;E:\workspace\Test\.\;C:\Program Files\Java\jdk1.7.0_05\lib\dt.jar;C:\Program Files\Java\jdk1.7.0_05\lib\tools.jar;D:\installed_file\apache-ant-1.9.2\bin\;D:\installed_file\apache-ant-1.9.2\lib\ant-antlr.jar;D:\installed_file\apache-ant-1.9.2\lib\ant-apache-bcel.jar;D:\installed_file\apache-ant-1.9.2\lib\ant-apache-bsf.jar;D:\installed_file\apache-ant-1.9.2\lib\ant-apache-log4j.jar;D:\installed_file\apache-ant-1.9.2\lib\ant-apache-oro.jar;D:\installed_file\apache-ant-1.9.2\lib\ant-apache-regexp.jar;D:\installed_file\apache-ant-1.9.2\lib\ant-apache-resolver.jar;D:\installed_file\apache-ant-1.9.2\lib\ant-apache-xalan2.jar;D:\installed_file\apache-ant-1.9.2\lib\ant-commons-logging.jar;D:\installed_file\apache-ant-1.9.2\lib\ant-commons-net.jar;D:\installed_file\apache-ant-1.9.2\lib\ant-jai.jar;D:\installed_file\apache-ant-1.9.2\lib\ant-javamail.jar;D:\installed_file\apache-ant-1.9.2\lib\ant-jdepend.jar;D:\installed_file\apache-ant-1.9.2\lib\ant-jmf.jar;D:\installed_file\apache-ant-1.9.2\lib\ant-jsch.jar;D:\installed_file\apache-ant-1.9.2\lib\ant-junit.jar;D:\installed_file\apache-ant-1.9.2\lib\ant-junit4.jar;D:\installed_file\apache-ant-1.9.2\lib\ant-launcher.jar;D:\installed_file\apache-ant-1.9.2\lib\ant-netrexx.jar;D:\installed_file\apache-ant-1.9.2\lib\ant-swing.jar;D:\installed_file\apache-ant-1.9.2\lib\ant-testutil.jar;D:\installed_file\apache-ant-1.9.2\lib\ant.jar;D:\installed_file\apache-ant-1.9.2\lib\hamcrest-core-1.3.jar;D:\installed_file\apache-ant-1.9.2\lib\junit.jar;C:\Program Files\Java\jdk1.7.0_05\lib\tools.jar" />
+    <property name="user.name" value="zy" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher -cp .;C:\Program Files\Java\jdk1.7.0_05\lib\dt.jar;C:\Program Files\Java\jdk1.7.0_05\lib\tools.jar;D:\installed_file\apache-ant-1.9.2\bin" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_05\jre" />
+    <property name="tmp.dir" value="E:\workspace\Test\tmp" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="user.language" value="zh" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="test.dir" value="E:\workspace\Test\src\zuoyou\jenkins\test" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.version" value="1.7.0_05" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_05\jre\lib\ext;C:\windows\Sun\Java\lib\ext" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_05\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_05\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_05\jre\classes" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="file.separator" value="\" />
+    <property name="src.dir" value="E:\workspace\Test\src" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="ant.file.type" value="file" />
+    <property name="sun.desktop" value="windows" />
+    <property name="sun.cpu.isalist" value="amd64" />
+  </properties>
+  <testcase classname="zuoyou.jenkins.test.task.JenkinsTest" name="test" time="0.002" />
+  <system-out><![CDATA[Tester Speaked!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
